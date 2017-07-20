@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-mvc",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyceelo/Portfolio-mvc.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Carlos Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazyceelo/Portfolio-mvc/issues"
+  },
+  "homepage": "https://github.com/crazyceelo/Portfolio-mvc#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "path": "^0.12.7"
+  }
+}
