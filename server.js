@@ -21,7 +21,7 @@ app.engine("handlebars", handle({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
 // Import the controller and give the server access to routes.
-var routes = require("./controller/controller.js");
+var routes = require("./controllers/controller.js");
 app.use("/", routes);
 app.listen(PORT);
 
